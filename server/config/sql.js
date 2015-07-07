@@ -2,10 +2,10 @@ var db = require('mysql');
 connection = db.createConnection({
 
   host: "localhost",
-  port : 8889,
+  port : 7778,
   user: "root",
   password: "root",
-  database: "projectSchema",
+  database: "build_cupcate_project",
   multipleStatements: true
   
 });
